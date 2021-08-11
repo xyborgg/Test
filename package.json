@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "node test.js",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6"
+  }
+}
